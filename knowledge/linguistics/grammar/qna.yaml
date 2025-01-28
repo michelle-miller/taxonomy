@@ -1,0 +1,152 @@
+created_by: michelle-miller
+version: 3
+domain: grammar
+seed_examples:
+  - context: |
+      Abbreviations include initialisms, acronyms, and shortened words. 
+      An initialism is an abbreviation that is pronounced as individual letters, for example, IBM. 
+      An acronym is an abbreviation that forms a pronounceable word, for example, NATO.
+      
+      Use an abbreviation in the following situations:
+      - Its meaning is clear: the spelled-out form is well known or is stated at the first instance in text.
+      - It makes the information easier to understand.
+      - It is recognized more easily than its spelled-out form, for example, HTML.
+      - It reduces text when space is limited, such as in a table or detailed diagram.
+      
+      Do not use an abbreviation in the following situations:
+      - It is unnecessary: the spelled-out form is short, clear, and does not benefit from abbreviation.
+      - It is invented: the abbreviation is created for specific content and does not have widespread use.
+      - Its meaning is unclear: the spelled-out form is not well known or is not stated at the first instance in text.
+      - It makes the information more difficult to understand.
+      - It occurs infrequently in the information, such as only two or three times in a large amount of content.
+      - It has several possible spelled-out forms, and the variations create confusion.
+      - It creates an inappropriate or undesirable letter combination or word.
+      - It is derived from Latin.
+      - It abbreviates a product name. Legal and branding representatives must officially approve abbreviations for product names, such as RUP or TADDM.
+      - It abbreviates a name or entity that is owned by another company, and the owning company does not use that abbreviation.
+      - It might be a registered trademark for a different product or entity.
+    questions_and_answers:
+      - question: |
+          Should I use an abbreviation if it occurs only one time in my content?
+        answer: |
+          Do not use an abbreviation if it occurs infrequently in the information, such as only two or three times in a large amount of content.
+      - question: |
+          Can I use Latin abbreviations, such as etc.?
+        answer: |
+          Do not use an abbreviation if it is derived from Latin.
+      - question: |
+          Should I use an acronym that is used for more than one common term?
+        answer: |
+          Do not use an abbreviation if it has several possible spelled-out forms, and the variations create confusion.
+  - context: |
+      Articles increase clarity and ease translation.
+      The articles “a” and “an” are indefinite articles. Use them to refer to things in the abstract or not in the particular. 
+      “An offering” or “a product” means any offering or any product, as opposed to a specific offering or product.
+      “The” is a definite article. Use it to refer to a particular thing or things, meaning that “the offering” or “the product” is about that particular offering or product.
+      Do not omit an article that belongs in a sentence to save space because the omission creates a sentence that sounds stilted and unnatural.
+      In some cases, articles can be omitted. For example, you can omit the article from a sentence that expresses a general sentiment.
+      When to use a or an
+      Choose the indefinite article a or an according to how an abbreviation, word, or number is spoken.
+      If an abbreviation is pronounced as a series of letters, choose the article according to the pronunciation of the first letter. 
+      If an abbreviation is pronounced as a word, choose the article according to the pronunciation of the word. 
+      Assume that the period in a file name extension, such as .exe, is pronounced as dot, and use the indefinite article a.
+      Use a before an abbreviation, word, or number that begins with a consonant sound.
+    questions_and_answers:
+      - question: |
+          Can I omit articles in UI text to limit the number of characters used?
+        answer: |
+          Do not omit an article that belongs in a sentence to save space because the omission creates a sentence that sounds stilted and unnatural.
+      - question: |
+          Is an article required before every noun?
+        answer: |
+          In some cases, articles can be omitted. For example, you can omit the article from a sentence that expresses a general sentiment.
+      - question: |
+          When should I use a instead of an in a sentence?
+        answer: |
+          Use a before an abbreviation, word, or number that begins with a consonant sound.
+  - context: |
+      Use clear and succinct verbs with the appropriate mood, person, tense, and voice.
+      Avoid using words that primarily function as verbs as nouns or adjectives.
+      Verbs that are commonly misused as nouns or adjectives include configure, compile, debug, fix, and install.
+      Avoid using a phrasal verb (a verb and a preposition) if the verb alone provides the same meaning. For example, use click instead of click on.
+      When you write a sentence that includes two coordinate clauses, do not omit the verb from the second clause.
+      When you use a verb phrase at the beginning of a sentence with a present participle, such as creating, or a past participle, such as created, make sure that the verb phrase modifies the correct word. Failure to do so results in a dangling modifier.
+      Use the imperative mood for requests or instructions, such as in procedures.
+      Use the indicative mood to specify information, such as facts and explanations.
+      Do not use the subjunctive mood in technical documentation.
+      Avoid using first person, which is indicated by the personal pronouns I, me, my, we, us, and our. The first person focuses on the writer, not on the audience or the information being presented.
+      The use of first person is acceptable in these situations:
+      - In the question portion of frequently asked questions (FAQs).
+      - In articles, white papers, marketing proposals, or documents with one or more authors and in which the author or authors describe their own actions or opinions.
+      - In videos, if it adds value to the content or if the presenters are visible. In these cases, the presenters may introduce themselves but should not use the first person elsewhere in the video.
+      As much as possible, use the second person, which is indicated by the personal pronoun you. The second person focuses on the reader.
+      Use the third person to describe concepts, facts, and results. The third person focuses on the information being presented. 
+      Most often, technical information is about things, not people. Therefore, the third person is indicated by nouns and third-person pronouns such as it and they. 
+      When you use the third person, do not use gender-specific pronouns, such as he and she, unless the context requires them.
+    questions_and_answers:
+      - question: |
+          Is it okay to write, "The install is completed"?
+        answer: |
+          Avoid using words that primarily function as verbs as nouns or adjectives.
+      - question: |
+          Can instructions include complex verb conjunctions, such as The installation should have been completed previously.
+        answer: |
+          Do not use the subjunctive mood in technical documentation.
+      - question: |
+          When can I use first person verbs in technical documentation?
+        answer: |
+          The use of first person is acceptable in the question portion of frequently asked questions (FAQs), in articles, white papers, marketing proposals, or documents 
+          with one or more authors and in which the author or authors describe their own actions or opinions, and in videos, if it adds 
+          value to the content or if the presenters are visible.
+  - context: |
+      Form the plural of most words, abbreviations, and numbers by adding the letter s alone.
+      Do not use the letter s in parentheses (s) to indicate that a noun can be singular or plural. 
+      Some languages form plural nouns differently than English, and the construction (s) can cause translation problems. 
+      Instead, use the plural form or, if it is important to indicate both singular and plural options, use one or more.
+      To form the plural of an acronym or any initialism, add a lowercase s. For examples, ACBs.
+      Use an apostrophe and the letter s ('s) to form the plural of single letters. For example, The printer did not print uppercase A's or lowercase m's.
+      For both numerals and numbers that are expressed as words, form the plural by adding the letter s alone. For example, zeros and twos.
+      When you refer to zero objects, use the plural form. For examples, There are zero active services.
+      The abbreviation for a unit of measurement is both singular and plural. For example, 1 mm and 10 mm.
+      To reduce the risk of ambiguity, do not refer to more than one object when what is being described applies to each object in a particular class.
+    questions_and_answers:
+      - question: How do you indicate that something can be singular or plural?
+        answer: |
+          Use the plural form or, if it is important to indicate both singular and plural options, use "one or more".
+      - question: How do you show that an acronym is plural?
+        answer: |
+          To form the plural of an acronym or any initialism, add a lowercase "s". For examples, "ACBs".
+      - question: |
+          Should the abbreviation for a unit of measure be plural when the measurement is greater than one?
+        answer: |
+          The abbreviation for a unit of measurement is both singular and plural. For example, 1 mm and 10 mm.
+  - context: |
+      For most singular nouns, and for plural nouns that do not end in "s", form the possessive by adding an apostrophe and the letter s ('s).
+      For plural nouns that end in "s", form the possessive by adding an apostrophe alone.
+      Do not use possessive "'s" with inanimate objects.
+      Do not use "'s" to show the possessive form of abbreviations or product names.
+      You can use "your" in reference to an asset after the asset is customized by the user in some way.
+    questions_and_answers:
+      - question: |
+          When do you end a word with an apostrophe only and not an "s"?
+        answer: |
+          For plural nouns that end in "s", form the possessive by adding an apostrophe alone.
+      - question: |
+          Can I add apostrophe "'s" to a product name when I write about its capabilities?
+        answer: |
+          Do not use "'s" to show the possessive form of abbreviations or product names.
+      - question: |
+          Can I use apostrophe s when writing about attributes of an objects, such as a server's configuration settings?
+        answer: |
+          Do not use possessive "'s" with inanimate objects.
+document_outline: |
+  Information about grammar and style guidelines that are followed by content developers.
+document:
+  repo: https://github.com/michelle-miller/my-model.git/
+  commit: 84eb95409be9f1e49addf080fbe8ffef8a321165
+  patterns:
+    - abbreviations.md
+    - articles.md
+    - plurals.md
+    - possessives.md
+    - verbs.md
