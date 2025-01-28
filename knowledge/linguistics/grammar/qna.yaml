@@ -142,8 +142,8 @@ seed_examples:
 document_outline: |
   Information about grammar and style guidelines that are followed by content developers.
 document:
-  repo: https://github.com/michelle-miller/my-model.git/
-  commit: 84eb95409be9f1e49addf080fbe8ffef8a321165
+  repo: https://github.com/michelle-miller/taxonomy.git/
+  commit: 88d4b10
   patterns:
     - abbreviations.md
     - articles.md
